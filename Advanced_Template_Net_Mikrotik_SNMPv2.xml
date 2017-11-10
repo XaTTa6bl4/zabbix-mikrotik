@@ -1444,7 +1444,7 @@ The average, over the last minute, of the percentage of time that this processor
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>discovery[{#IPADDR},.1.3.6.1.2.1.4.20.1.1, {#IFACEID},.1.3.6.1.2.1.4.20.1.2]</snmp_oid>
                     <key>ip.addr.discovery</key>
-                    <delay>30s</delay>
+                    <delay>3600</delay>
                     <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
