@@ -5,7 +5,7 @@ Template based on original Template Net Mikrotik SNMPv2 from stock Zabbix 3.4
 ## Improvements
 * Added main device MAC to inventory
 * Added item "Interface MAC address" for each interface (useful for mac-telnet/mac-winbox in MikroTik)
-* Added unicast pps items and add its to traffic graphs
+* Added unicast pps items and added them to traffic graphs
 * Changed trigger "High bandwidth usage" to operate only on ethernet type interfaces (because speed of other type interfaces determines incorrect in MikroTik)
 * Added Queues Simple discovery with graphs
 * Added IP discovery with ICMP triggers and graphs, for multiwan configurations (discovering all IPs, except regexp)
