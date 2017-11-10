@@ -21,6 +21,7 @@ For correct IP discovery working, you need to add Regular Expressions (see scree
 ```
 IP addresses for discovery	
 1	»	^(172\.(1+[6-9]|2+[0-9]|3+[0-2])\.)+[0-9]{1,3}+\.+[0-9]{1,3}$	[Result is FALSE]
-2	»	^(10\.[0-9]{1,3}\.)+[0-9]{1,3}+\.+[0-9]{1,3}$									[Result is FALSE]
-3	»	^(192\.168\.)+[0-9]{1,3}+\.+[0-9]{1,3}$												[Result is FALSE]
+2	»	^(10\.[0-9]{1,3}\.)+[0-9]{1,3}+\.+[0-9]{1,3}$			[Result is FALSE]
+3	»	^(192\.168\.)+[0-9]{1,3}+\.+[0-9]{1,3}$				[Result is FALSE]
 ```
+![RegExp IP addresses for discovery](/regexp/regexp-ip_addresses_for_discovery.png?raw=true "RegExp IP addresses for discovery")
