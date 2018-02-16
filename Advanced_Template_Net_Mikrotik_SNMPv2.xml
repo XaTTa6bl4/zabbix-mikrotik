@@ -1478,9 +1478,6 @@ Last three attempts returned timeout.  Please check device connectivity.</descri
             <template>
                <name>Advanced Template Module Interfaces SNMPv2</name>
             </template>
-            <template>
-               <name>Template Module Generic SNMPv2</name>
-            </template>
          </templates>
          <screens/>
       </template>
