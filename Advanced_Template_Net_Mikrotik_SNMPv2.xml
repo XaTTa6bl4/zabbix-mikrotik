@@ -396,7 +396,7 @@ RouterBOARD serial number</description>
                <port/>
                <description>MIB: MIKROTIK-MIB
 Current firmware version</description>
-               <inventory_link>0</inventory_link>
+               <inventory_link>16</inventory_link>
                <applications>
                   <application>
                      <name>Inventory</name>
